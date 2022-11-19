@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Logic_operations {
-
-    public int radius = 4;
     public double temp = 36.6;
     public int number;
     public int firstNumber;
