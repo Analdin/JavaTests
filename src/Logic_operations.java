@@ -105,4 +105,22 @@ public class Logic_operations {
                 break;
         }
     }
+    public void test(){
+        String word = "apple";
+        switch (word) {
+            case "1":
+                System.out.printf("\"%s\" is a number\n", word);
+                break;
+            case "peer":
+                System.out.printf("\"%s\" is a fruit\n", word);
+                break;
+            case "week":
+                System.out.printf("\"%s\" is a noun\n", word);
+                break;
+            case "apple":
+                System.out.printf("\"%s\" is a fruit\n", word);
+            default:
+                System.out.println("Error");
+        }
+    }
 }

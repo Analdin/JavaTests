@@ -46,8 +46,8 @@ public class Main {
         // Practice2 run2 = new Practice2();
         // run2.test();
 
-        Logic_operations run = new Logic_operations();
-        run.RoundCalc();
+        // Logic_operations run = new Logic_operations();
+        /*run.RoundCalc();
         run.FarenheitCalc();
         run.KelvinCalc();
         run.ThreeNumber();
@@ -55,5 +55,16 @@ public class Main {
         run.LowerTheDigits();
         run.BoxerWeight();
         run.DaysOfTheWeek();
+        run.test();*/
+
+        /*FuncClass runF = new FuncClass();
+        runF.DoTheJob();*/
+
+        /*ProgTests runProg = new ProgTests();
+        runProg.funcTest();*/
+
+        CyclesTests run = new CyclesTests();
+        run.test();
+
     }
 }
